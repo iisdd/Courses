@@ -1,3 +1,4 @@
+# 复杂度O(nlogn)
 # 整体思路分归位,递归两部分
 import numpy as np
 def quick_sort(li, left, right):         # data为待排序列表,left,right定义待排序区域
