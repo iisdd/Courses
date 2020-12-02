@@ -1,11 +1,11 @@
 # 复杂度O(nlogn)
 # 整体思路分归位,递归两部分
 import numpy as np
-def quick_sort(li, left, right):         # data为待排序列表,left,right定义待排序区域
+def _quick_sort(li, left, right):         # data为待排序列表,left,right定义待排序区域
     if left < right:                     # 有两个及以上元素才需要递归
         mid = partition(li, left, right) # 1.归位
-        quick_sort(li, left, mid-1)      # 2.递归排两边的序
-        quick_sort(li, mid+1, right)
+        _quick_sort(li, left, mid-1)      # 2.递归排两边的序
+        _quick_sort(li, mid+1, right)
 
 def partition(li, left, right):          # 排好中间那个元素并返回mid的index,左右横跳排序
     tmp = li[left]                       # 把最左边的数拿出来存着
@@ -21,11 +21,11 @@ def partition(li, left, right):          # 排好中间那个元素并返回mid�
     li[left] = tmp                       # 把最开始左边的数字放回空位,也就是mid的位置上
     return left                          # 返回归位的index
 
+def quick_sort(li):                      # 方便统计运行时间,因为递归会返回很多个时间
+    _quick_sort(li, 0, len(li)-1)
+
 # li = [8,9,6,4,3,7]
 li = [np.random.randint(0, 100) for _ in range(20)]
-quick_sort(li, 0, len(li)-1)
+quick_sort(li)
 print(li)
-
-
-
 
