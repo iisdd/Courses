@@ -2,8 +2,8 @@
 # 整体思路分归位,递归两部分
 import numpy as np
 def _quick_sort(li, left, right):         # data为待排序列表,left,right定义待排序区域
-    if left < right:                     # 有两个及以上元素才需要递归
-        mid = partition(li, left, right) # 1.归位
+    if left < right:                      # 有两个及以上元素才需要递归
+        mid = partition(li, left, right)  # 1.归位
         _quick_sort(li, left, mid-1)      # 2.递归排两边的序
         _quick_sort(li, mid+1, right)
 
