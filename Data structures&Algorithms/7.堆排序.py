@@ -11,9 +11,9 @@ def sift(li, low, high):
     i = low                     # 父节点
     j = i*2 + 1                 # 左孩子节点
     tmp = li[low]               # 把原来的堆顶(省长)记录下来
-    while j < high:             # 还有孩子节点就一直循环
+    while j <= high:            # 还有孩子节点就一直循环
         # 先从孩子节点里挑出最强的来
-        if j+1 < high and li[j+1] > li[j]:
+        if j+1 <= high and li[j+1] > li[j]:
             j = j+1             # j指向右孩子节点
         if li[j] > tmp:         # 下级比领导还强,换人
             li[i] = li[j]
