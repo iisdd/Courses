@@ -5,7 +5,7 @@ def sift(li, low, high):
     '''
     :param li:   列表
     :param low:  根节点位置
-    :param high: 最尾端的叶子节点位置
+    :param high: 最尾端的叶子节点位置+1
     :return:     不返回值,把li变成堆(有序)
     '''
     i = low                     # 父节点
