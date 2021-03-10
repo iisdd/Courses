@@ -1,5 +1,5 @@
 # Courses
-记录一些上过的课程&amp;作业
+记录一些自学的课程&amp;作业
 # 目前包括:
 [1.python基础教程(2019-09-04 ~ 2019-10-30)](https://www.bilibili.com/video/BV1Fs411A7HZ "python初学")
 
