@@ -1,0 +1,12 @@
+body {
+    font-family: "helvetica neue";
+    color: #666;
+    padding: 0 30%;
+}
+img {
+  width: 200px;
+}
+.hide {
+  /* 所有hide类的图片都不显示 */
+  display: none;
+}

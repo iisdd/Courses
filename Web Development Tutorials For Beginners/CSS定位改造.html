@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>    
+    body {
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        /* 去掉前面的小点点 */
+    }
+    
+    li {
+        display: inline-block;
+        margin-left: 20px;
+        border-radius: 10px;
+    }
+
+    section.feature-box {
+        display: flex;
+    }
+
+    section.feature-box div {
+        width: 100%;
+        margin: 1px;
+    }
+    /* DRY: 一样的写一起,有区别的写一起 */
+    /* 空格表示下一级,点表示类 */
+    section.feature-box.sales div {
+        /* 只让Section a,b,c背景变灰 */
+        background: gray;
+    }
+
+    section.feature-box.closeouts div {
+        /* 只让Section d,e背景变红 */
+        background: rgb(255, 0, 0);
+    }
+    .dd li {
+        background: pink;
+    }
+    /* 伪类 */
+    li:first-child {
+        background: yellow;
+        border-radius: 0px;
+        margin-left: 0px;
+    }
+    li:last-child {
+        background: rgb(95, 17, 30);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+    </style>
+</head>
+<body>
+    <ul class="dd">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="locations.html">Locations</a></li>
+        <li><a href="directions.html">Directions</a></li>
+    </ul>    
+
+    <section class="feature-box sales">
+        <!-- 空格代表下一级的类 -->
+        <div>Section a</div>
+        <div>Section b</div>
+        <div>Section c</div>
+    </section>
+
+    <section class="feature-box closeouts">
+        <div>Section d</div>
+        <div>Section e</div>
+    </section>
+</body>
+</html>

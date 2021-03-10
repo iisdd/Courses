@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        My first Page!
+    </title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/locations.html">Locations</a></li>
+                <li class="mobile"><a href="pages/contact.html">Contact</a></li>
+                <li class="mobile"><a href="pages/contact.html">Menu</a></li>
+                <!-- 手机端字一行,图标一行 -->
+                <li class="logo"><a href="index.html">Logo</a></li>
+                <!-- Logo这个文本虽然不显示,但是也要语义化表达 -->
+                <li class="desktop"><a href="pages/contact.html">Contact</a></li>
+                <li class="desktop"><a href="pages/contact.html">Menu</a></li>
+                <!-- PC端图标在字中间 -->
+
+            </ul>
+        </nav>
+        <h1>主页</h1>
+    </header>
+    <section class="features">
+        <!-- alt是图片的描述,有两个作用:1.方便残障人士阅读 2.方便网站爬取网页信息 -->
+        <figure>
+            <img src="images/pic1.jpg" alt="laopo1">
+            <figcaption>
+                <!-- figcaption里是图片的文字说明 -->
+                <h4>老婆1号</h4>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/pic2.jpg" alt="laopo2">
+            <figcaption>
+                <!-- 这里是图片的文字说明 -->
+                <h4>老婆2号</h4>
+            </figcaption>
+        </figure>
+
+        <figure>
+            <img src="images/pic3.jpg" alt="laopo3">
+            <figcaption>
+                <!-- 这里是图片的文字说明 -->
+                <h4>老婆3号</h4>
+            </figcaption>
+        </figure>
+    </section> 
+
+    <h4>
+        Add Numbers:
+    </h4>
+    <p>
+        <input id="num-one"> + <input id="num-two">
+    </p>
+    <p id="add-sum"></p>
+
+    <footer>征婚邮箱475817594@qq.com</footer>
+    <script src="scripts/main.js">
+        // 这里写JS的交互功能
+    </script>
+</body>
+</html>
