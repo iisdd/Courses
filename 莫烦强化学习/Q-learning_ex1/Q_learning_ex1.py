@@ -24,20 +24,20 @@ def build_q_table(n_states , actions):
 
 def choose_action(state , q_table):
     # 选择动作的函数
-    state_actions = q_table.iloc[state , : ] #取对应状态那一行的Q
-    if (np.random.uniform() > EPSILON) or (state_actions.all() == 0): #随机选择
+    state_actions = q_table.iloc[state , : ]                            # 取对应状态那一行的Q
+    if (np.random.uniform() > EPSILON) or (state_actions.all() == 0):   # 随机选择
         action_name = np.random.choice(ACTIONS)
         #print('随机')
     else: # act greedy
-        action_name = ACTIONS[state_actions.argmax()] #由于不是用的ix,这里也要改成标签名
+        action_name = ACTIONS[state_actions.argmax()]                   # 由于不是用的ix,这里也要改成标签名
         #print('贪心')
     #print(action_name)
     return action_name
 
 def get_env_feedback(S , A):
     # agent与环境交互的机制,S_表示S',次态
-    if A == 'right':
-        if S == N_STATES - 2: # 一共0,1,2,3,4,5 在第4位上
+    if A == 'right':                                                    # 往右走
+        if S == N_STATES - 2:                                           # 一共0,1,2,3,4,5 在第4位上
             S_ = 'terminal'
             R = 1 # 立即奖励
         else:
@@ -78,14 +78,14 @@ def rl():
             A = choose_action(S , q_table)
             S_ , R = get_env_feedback(S , A)
             #print(S , A)
-            q_predict = q_table.loc[S , A] #按行列取值
+            q_predict = q_table.loc[S , A]                          # loc:按行列取值
             if S_ != 'terminal':
-                q_target = R + LAMBDA * q_table.loc[S_ , : ].max() #取某行最大值
+                q_target = R + LAMBDA * q_table.loc[S_ , : ].max()  # 取某行最大值
             else:
-                q_target = R #走到终点前一步了
-                is_terminated = True #这个episode完结了
+                q_target = R                                        # 走到终点前一步了
+                is_terminated = True                                # 这个episode完结了
 
-            q_table.loc[S , A] += ALPHA * (q_target - q_predict) # 更新q表
+            q_table.loc[S , A] += ALPHA * (q_target - q_predict)    # 更新q表
             S = S_
             step_counter += 1
             update_env(S ,episode , step_counter)
