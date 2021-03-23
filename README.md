@@ -5,7 +5,10 @@
 
 [2.matlab基本操作(2019-10-14 ~ 2019-10-20)](https://www.bilibili.com/video/BV1Rx411S7Cw "matlab初学")
 
-[2.吴恩达机器学习(coursera)(2019-11-03 ~ 2020-01-10)](https://www.coursera.org/learn/machine-learning?action=enroll "机器学习初学")
+[3.吴恩达机器学习(coursera)(2019-11-03 ~ 2020-01-10)](https://www.coursera.org/learn/machine-learning?action=enroll "机器学习初学")
+
+[4.david silver强化学习理论课(2020-01-11 ~ 2020-03-20)](https://www.bilibili.com/video/BV1kb411i7KG "RL理论")
+
 
 [3.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
 
