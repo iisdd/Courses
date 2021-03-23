@@ -9,6 +9,7 @@
 
 [4.david silver强化学习理论课(2020-01-11 ~ 2020-03-20)](https://www.bilibili.com/video/BV1kb411i7KG "RL理论")
 
+[5.莫烦RL实战(2020-04-14 ~ 2020-12-14)](https://www.bilibili.com/video/BV13W411Y75P "莫烦RL实战")
 
 [3.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
 
