@@ -3,7 +3,9 @@
 # 目前包括:
 [1.python基础教程(2019-09-04 ~ 2019-10-30)](https://www.bilibili.com/video/BV1Fs411A7HZ "python初学")
 
-[2.吴恩达机器学习(2019-11-03 ~ 2020-01-10)](https://www.coursera.org/learn/machine-learning?action=enroll "机器学习初学")
+[2.matlab基本操作(2019-10-14 ~ 2019-10-20)](https://www.bilibili.com/video/BV1Rx411S7Cw)
+
+[2.吴恩达机器学习(coursera)(2019-11-03 ~ 2020-01-10)](https://www.coursera.org/learn/machine-learning?action=enroll "机器学习初学")
 
 [3.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
 
