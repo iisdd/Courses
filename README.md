@@ -11,6 +11,10 @@
 
 [5.莫烦RL实战(2020-04-14 ~ 2020-12-14)](https://www.bilibili.com/video/BV13W411Y75P "莫烦RL实战")
 
+[6.莫烦tensorflow教程(2020-05-23 ~ 2020-06-03)](https://www.bilibili.com/video/BV1Lx411j7ws?from=search&seid=17944081089601973771 "莫烦tensorflow")
+
+
+
 [3.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
 
 [4.莫烦NLP教程(2021-02-04 ~ 2021-02-28)](https://www.bilibili.com/video/BV1LA411n73X?p=1 "NLP初学")
