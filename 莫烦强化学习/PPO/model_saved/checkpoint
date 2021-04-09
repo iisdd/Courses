@@ -1,0 +1,2 @@
+model_checkpoint_path: "pendulum_model"
+all_model_checkpoint_paths: "pendulum_model"
