@@ -11,10 +11,12 @@
 
 [5.莫烦RL实战(2020-04-14 ~ 2020-12-14)](https://www.bilibili.com/video/BV13W411Y75P "莫烦RL实战")
 
-[6.莫烦pytorch教程(2020-04-26 ~ 2020-05-20)](https://www.bilibili.com/video/BV1Vx411j7kT?from=search&seid=3911734983301869116 "莫烦pytorch")
+[6.numpy&pandas(2020-04-07 ~ 2020-04-14)](https://www.bilibili.com/video/BV1Ex411L7oT?from=search&seid=8281149702309701203 "莫烦numpy&pandas")
+
+[7.莫烦pytorch教程(2020-04-26 ~ 2020-05-20)](https://www.bilibili.com/video/BV1Vx411j7kT?from=search&seid=3911734983301869116 "莫烦pytorch")
 
 
-[7.莫烦tensorflow教程(2020-05-23 ~ 2020-06-03)](https://www.bilibili.com/video/BV1Lx411j7ws?from=search&seid=17944081089601973771 "莫烦tensorflow")
+[8.莫烦tensorflow教程(2020-05-23 ~ 2020-06-03)](https://www.bilibili.com/video/BV1Lx411j7ws?from=search&seid=17944081089601973771 "莫烦tensorflow")
 
 
 
