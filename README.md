@@ -1,6 +1,6 @@
 # Courses
 记录一些自学的课程&amp;作业
-# 目前包括:
+# 时间线:
 [1.python基础教程(2019-09-04 ~ 2019-10-30)](https://www.bilibili.com/video/BV1Fs411A7HZ "python初学")
 
 [2.matlab基本操作(2019-10-14 ~ 2019-10-20)](https://www.bilibili.com/video/BV1Rx411S7Cw "matlab初学")
