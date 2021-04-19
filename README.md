@@ -15,13 +15,12 @@
 
 [7.莫烦pytorch教程(2020-04-26 ~ 2020-05-20)](https://www.bilibili.com/video/BV1Vx411j7kT?from=search&seid=3911734983301869116 "莫烦pytorch")
 
-
 [8.莫烦tensorflow教程(2020-05-23 ~ 2020-06-03)](https://www.bilibili.com/video/BV1Lx411j7ws?from=search&seid=17944081089601973771 "莫烦tensorflow")
 
+[9.莫烦keras教程(2020-06-11 ~ 2020-06-12)](https://www.bilibili.com/video/BV1TW411Y7HU?from=search&seid=4114915452747681657 "莫烦keras")
 
+[10.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
 
-[3.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
+[11.莫烦NLP教程(2021-02-04 ~ 2021-02-28)](https://www.bilibili.com/video/BV1LA411n73X?p=1 "NLP初学")
 
-[4.莫烦NLP教程(2021-02-04 ~ 2021-02-28)](https://www.bilibili.com/video/BV1LA411n73X?p=1 "NLP初学")
-
-[5.Web前端教程(2021-03-02 ~ )](https://www.youtube.com/watch?v=gQojMIhELvM&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc "Web前端初学")
+[12.Web前端教程(2021-03-02 ~ )](https://www.youtube.com/watch?v=gQojMIhELvM&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc "Web前端初学")
