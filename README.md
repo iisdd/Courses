@@ -15,6 +15,8 @@
 
 [7.莫烦pytorch教程(2020-04-26 ~ 2020-05-20)](https://www.bilibili.com/video/BV1Vx411j7kT?from=search&seid=3911734983301869116 "莫烦pytorch")
 
+[8.吴恩达深度学习(2020-05-22 ~ 2020-11-19)](https://www.bilibili.com/video/BV164411m79z?from=search&seid=8250162928139330950 "吴恩达深度学习")
+
 [8.莫烦tensorflow教程(2020-05-23 ~ 2020-06-03)](https://www.bilibili.com/video/BV1Lx411j7ws?from=search&seid=17944081089601973771 "莫烦tensorflow")
 
 [9.莫烦keras教程(2020-06-11 ~ 2020-06-12)](https://www.bilibili.com/video/BV1TW411Y7HU?from=search&seid=4114915452747681657 "莫烦keras")
