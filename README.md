@@ -24,5 +24,3 @@
 [11.数据结构与算法(2020-11-24 ~ 2021-01-13)](https://www.bilibili.com/video/BV1mp4y1D7UP?p=1 "数据结构&算法")
 
 [12.莫烦NLP教程(2021-02-04 ~ 2021-02-28)](https://www.bilibili.com/video/BV1LA411n73X?p=1 "NLP初学")
-
-[13.Web前端教程(2021-03-02 ~ )](https://www.youtube.com/watch?v=gQojMIhELvM&list=PLoYCgNOIyGAB_8_iq1cL8MVeun7cB6eNc "Web前端初学")
